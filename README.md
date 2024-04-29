@@ -16,7 +16,7 @@ Este proyecto consiste en un programa de JAVA, se trata de un conversor de moned
 1. Ejecutar el programa `Principal.java`.
 2. Seguir las instrucciones del menú para realizar conversiones o consultar el historial.
 
-![Selección #1 Cambiar moneda](recursos/Cambiar Moneda.png)
+![Selección #1 Cambiar moneda](recursos/Cambiar moneda.png)
 
 ## Dependencias
 
