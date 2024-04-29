@@ -44,7 +44,7 @@ Cuando el usuario ha ingresado una moneda base válida deberá escoger una moned
 ![Moneda base y objetivo ingresadas](recursos/Seleccion_monedas.png)
 
  **Ingresando cantidad a convertir:**
-Si el usuario ingresa una cantidad inválida (diferente de un número), deberá ingresar nuevamente una cantidad válida.
+Si el usuario ingresa una cantidad inválida (diferente de un número), deberá ingresar nuevamente una cantidad válida.<br>
 ![Cantidad inválida](recursos/cantidad_invalida.png)
 
 Cuando el usuario ha introducido una cantidad válida, se imprimirá el resultado y la información de la conversión solicitada.
