@@ -73,16 +73,20 @@ public class Menu {
     }
 
     public void imprimirConversiones(ArrayList<Conversion> listaDeConversiones) {
-        System.out.println("Historial de conversiones:");
-        for (int i = 0; i < listaDeConversiones.size(); i++) {
-            Conversion conversion = listaDeConversiones.get(i);
-            System.out.println("Conversión " + (i + 1) + ":");
-            System.out.println("Moneda origen: " + conversion.getMonedaBase());
-            System.out.println("Moneda objetivo: " + conversion.getMonedaObjetivo());
-            System.out.println("Cantidad a cambiar: " + conversion.getCantidadACambiar());
-            System.out.println("Cantidad obtenida: " + conversion.getCantidadEnMonedaObjetivo());
-            System.out.println("Fecha y hora: " + formatDateTime(conversion.getTiempo()));
-            System.out.println("-----------------------------------------");
+        if (listaDeConversiones.isEmpty()) {
+            System.out.println("No se han realizado conversiones.");
+        } else {
+            System.out.println("Historial de conversiones:");
+            for (int i = 0; i < listaDeConversiones.size(); i++) {
+                Conversion conversion = listaDeConversiones.get(i);
+                System.out.println("Conversión " + (i + 1) + ":");
+                System.out.println("Moneda origen: " + conversion.getMonedaBase());
+                System.out.println("Moneda objetivo: " + conversion.getMonedaObjetivo());
+                System.out.println("Cantidad a cambiar: " + conversion.getCantidadACambiar());
+                System.out.println("Cantidad obtenida: " + conversion.getCantidadEnMonedaObjetivo());
+                System.out.println("Fecha y hora: " + formatDateTime(conversion.getTiempo()));
+                System.out.println("-----------------------------------------");
+            }
         }
     }
 
