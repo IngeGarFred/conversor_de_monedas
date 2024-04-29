@@ -18,7 +18,7 @@ Este proyecto consiste en un programa de JAVA, se trata de un conversor de moned
 
 ### Ejemplo de uso:
 
-A continuación de muestra un ejemplo con posibles entradas de usuario y respuestas del programa
+A continuación se muestra un ejemplo con posibles entradas de usuario y respuestas del programa:
 
  **Ejecutar el programa:**
    - Abre una terminal o línea de comandos.
@@ -57,6 +57,9 @@ En el menú principal, el usuario puede digitar la opción 2 para ver el histori
  **Saliendo del programa:**
 Finalmente, el usuario puede seleccionar la opción 3 para terminar el programa.<br>
 ![Salir del programa](recursos/salir.png)
+
+ **Video de ejemplo de uso**
+ [Video ejemplo de funcionamiento](recursos/Run_conversor_de_monedas.mp4)
 
 ## Dependencias
 
