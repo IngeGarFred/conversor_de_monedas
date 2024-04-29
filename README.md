@@ -59,7 +59,7 @@ Finalmente, el usuario puede seleccionar la opción 3 para terminar el programa.
 ![Salir del programa](recursos/salir.png)
 
  **Video de ejemplo de uso**
- [Video ejemplo de funcionamiento](recursos/Run_conversor_de_monedas.mp4)
+ [Video ejemplo de funcionamiento](https://youtu.be/4cz0l7v_AqU)
 
 ## Dependencias
 
