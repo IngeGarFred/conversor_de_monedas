@@ -55,7 +55,7 @@ En el menú principal, el usuario puede digitar la opción 2 para ver el histori
 ![Imprimiendo historial de conversiones](recursos/imprimir_conversiones.png)
 
  **Saliendo del programa:**
- Finalmente, el usuario puede seleccionar la opción 3 para terminar el programa.
+Finalmente, el usuario puede seleccionar la opción 3 para terminar el programa.
 ![Salir del programa](recursos/salir.png)
 
 ## Dependencias
