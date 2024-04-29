@@ -27,35 +27,35 @@ A continuación de muestra un ejemplo con posibles entradas de usuario y respues
    - Ejecuta el programa compilado utilizando el comando `java Principal`.
      
  **Iniciando el programa:**
-Luego de ejecutar el programa, se mostrará el siguiente menú, en el cual el usuario deberá escoger la opción a realizar digitándo el número correspondiente.
+Luego de ejecutar el programa, se mostrará el siguiente menú, en el cual el usuario deberá escoger la opción a realizar digitándo el número correspondiente.<br>
 ![Menú principal](recursos/Menu_principal.png)
 
-Si el usuario ingresa una opción diferente se mostrará un mensaje de opción inválida y deberá ingresar nuevamente una opción.
+Si el usuario ingresa una opción diferente se mostrará un mensaje de opción inválida y deberá ingresar nuevamente una opción.<br>
 ![Opción inválida en menú principal](recursos/Opcion_Invalida.png)
 
  **Ingresando monedas:**
- Si el usuario ingresa la opción 1 en el menú principal, se mostrará el siguiente menú, en el cual deberá seleccionar la moneda base o de origen de la conversión ingresando las tres letras correspondientes a la denominación. 
+ Si el usuario ingresa la opción 1 en el menú principal, se mostrará el siguiente menú, en el cual deberá seleccionar la moneda base o de origen de la conversión ingresando las tres letras correspondientes a la denominación.<br> 
 ![Opciones moneda inicial](recursos/Cambiar_moneda.png)
 
-Si el usuario ingresa una opción diferente a las opciones disponibles se mostrará un mensaje de opción no disponible y deberá ingresar nuevamente una moneda disponible.
+Si el usuario ingresa una opción diferente a las opciones disponibles se mostrará un mensaje de opción no disponible y deberá ingresar nuevamente una moneda disponible.<br>
 ![Ingreso moneda inválida](recursos/moneda_invalida.png)
 
-Cuando el usuario ha ingresado una moneda base válida deberá escoger una moneda objetivo, de igual manera si ingresa una moneda no disponible deberá ingresar una moneda válida. Luego de esto deberá ingresar la cantidad a convertir.
+Cuando el usuario ha ingresado una moneda base válida deberá escoger una moneda objetivo, de igual manera si ingresa una moneda no disponible deberá ingresar una moneda válida. Luego de esto deberá ingresar la cantidad a convertir.<br>
 ![Moneda base y objetivo ingresadas](recursos/Seleccion_monedas.png)
 
  **Ingresando cantidad a convertir:**
 Si el usuario ingresa una cantidad inválida (diferente de un número), deberá ingresar nuevamente una cantidad válida.<br>
 ![Cantidad inválida](recursos/cantidad_invalida.png)
 
-Cuando el usuario ha introducido una cantidad válida, se imprimirá el resultado y la información de la conversión solicitada.
+Cuando el usuario ha introducido una cantidad válida, se imprimirá el resultado y la información de la conversión solicitada.<br>
 ![Resultado de la conversión](recursos/resultado_conversion.png)
 
  **Consultando historial de conversiones:**
-En el menú principal, el usuario puede digitar la opción 2 para ver el historial detallado de conversiones realizadas con fecha y hora de estas.
+En el menú principal, el usuario puede digitar la opción 2 para ver el historial detallado de conversiones realizadas con fecha y hora de estas.<br>
 ![Imprimiendo historial de conversiones](recursos/imprimir_conversiones.png)
 
  **Saliendo del programa:**
-Finalmente, el usuario puede seleccionar la opción 3 para terminar el programa.
+Finalmente, el usuario puede seleccionar la opción 3 para terminar el programa.<br>
 ![Salir del programa](recursos/salir.png)
 
 ## Dependencias
